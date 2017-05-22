@@ -1,0 +1,81 @@
+<!doctype html>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+   <head>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  	<link rel="stylesheet" href="./stylesheets/landing.css">
+    <script src="./javascripts/landing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.amd.js"></script>
+
+
+<script id="profile-template" type="text/x-handlebars-template">
+	<title>{{userName}} Profile </title>
+
+	<div class="profImg">
+		
+		<script id="pImg-template" type="text/x-handlebars-template">
+		<img src= {{imgUrl}}>
+		</script>
+
+	</div>
+
+	<div class="whereFrom">
+
+		<script id="from-template" type="text/x-handlebars-template">
+		From: {{locationData}}
+		</script>
+	</div>
+
+	<div class="age">
+
+		<script id="age-template" type="text/x-handlebars-template">
+		Age: {{ageData}}
+		</script>
+	</div>
+
+	<div class="political">
+
+		<script id="political-template" type="text/x-handlebars-template">
+		{{politicalData}} Bro
+		{{politicalNumber}} on a scale of one to five.
+		</script>
+
+	</div>
+
+	<div class="religious">
+
+		<script id="religious-template" type="text/x-handlebars-template">
+		{{religiousData}} Bro
+		{{religiousNUmber}} on a scale of one to five.
+		</script>
+
+	</div>
+
+	<div class="social">
+
+		<script id="social-template" type="text/x-handlebars-template">
+		Social:
+		{{socialNumber}} on a scale of one to five 
+		</script>
+	</div>
+
+
+	<div class="likes">
+		<script id="likes-template" type="text/x-handlebars-template">
+		{{likeButtons}}
+		</script>
+	</div>
+
+	<div class="aboutMe">
+		<script id="description-template" type="text/x-handlebars-template">
+		{{aboutMe}}
+		</script>
+	</div>
+
+<button> Send this Bro a message</button>

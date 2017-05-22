@@ -1,0 +1,94 @@
+body {
+	margin: 0 auto;
+	width: 600px;
+	font-family: "Raleway", sans-serif;
+}
+
+.toolbar {
+	background-color: #fec311;
+	position: relative;
+	left: 90px;
+}
+
+.fontChoices {
+	float: left;
+	margin-right: 10px;
+}
+
+.fontChoices a {
+	margin-left: -4px;
+}
+
+/*.lists {
+	float: left;
+	margin-right: 25px;
+}
+
+.lists a {
+	margin-left: -4px;
+}*/
+
+.addStuff {
+	float: left;
+	margin-right: 10px;
+}
+
+.addStuff a {
+	margin-left: -4px;
+}
+
+.doUndo {
+	float: left;
+	margin-right: 15px;
+}
+
+.doUndo a {
+	margin-left: -4px;
+}
+
+a {
+	cursor: pointer;		
+	font-size: 25px;
+	border: solid 1px;
+	color: black;
+	padding: 3px 5px 3px 5px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #CCC;
+	width: 1em;
+	color: #6c6352;
+}
+
+#clearFix {
+	content: "";
+    clear: both;
+    
+}
+
+#textEdit {
+	padding: 1em;
+	resize: vertical;
+	overflow: auto;
+	min-height: 150px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 1px 1px #CCC;
+	border-radius: 1px;	
+	font-family: Lato;
+	color: black;
+}
+
+
+		input {
+
+			max-width: 500px;
+			padding: 15px 15px 8px 15px;
+			box-shadow: 1px 1px 4px #DADADA;
+			border: none;
+			border-radius: 3px;
+			margin-bottom: 5px;
+			background-color: rgba(255, 255, 255, .25)
+			left: 25%;
+			position: relative;
+  			margin: 80px 0 0 10px;
+  			cursor: pointer;
+		}	

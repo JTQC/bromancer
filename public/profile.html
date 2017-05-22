@@ -1,0 +1,96 @@
+<!doctype html>
+   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+   <head>
+  	<link rel="stylesheet" href="./stylesheets/profile.css">
+    <script src="./javascripts/profile.js"></script>
+    <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.amd.js"></script>
+
+<div class="header">
+<h1><!-- <div class="firstThree"> -->BRO<!-- </div> -->mancer</h1>
+
+<div class = "intro" id="intro">
+<h2>Alright,  let's get going!</h2>
+<p>First lets start with a picture. You don't have to have one, but if you don't have one you might seem strange.
+<input id="picUrl" type="text" placeholder="Please enter URL for your picture here">
+<button id="savePic">Save Picture</button>
+<!-- <h2>Or if you need to upload a picture, please click here</h2>
+<input type="file" id="picFile"> -->
+</div>
+<!-- <script id="address-template" type="text/x-handlebars-template">
+$(document).ready(function () {
+       <h1>{{username}}</h1>
+};  
+</script> -->
+<div id="userPhoto">
+</div>
+
+<div class = "intro" id="intro2">
+When where you born?  We aren't going to give your D.O.B out, this is just for general age.
+<input type="date" id="userDOB">
+<button id="submitDate">Submit</button>
+</div>
+
+<div id="age"></div>
+<div class = "intro" id="intro3">
+Next, some questions.  These are the three things we think help or hinder a bromance the most, so let's get them out of the way.
+
+<div class = "intro" id="politics">
+<h2>How would you describe yourself politically? (Anarchaist, Conservative, Liberal, etc)</h2>
+<input type="text" id="politicalType">
+<h2>And how passionate are you about politics on a scale of one to five.  One being not at all passionate, five being marching in the streets</h2>
+<input type="radio" id="politicalPassion" value="1">1
+<input type="radio" id="politicalPassion" value="2">2
+<input type="radio" id="politicalPassion" value="3">3
+<input type="radio" id="politicalPassion" value="4">4
+<input type="radio" id="politicalPassion" value="5">5
+</div>
+
+<div class = "intro" id="religion">
+<h2>Are you religious, if so what type of religion? (Agnostic, Atheist, or I don't know are all perfectly viable options here as well)</h2>
+
+<input type="text" id="reg">
+<h2>And how passionate are you about those beliefs, or lack thereof, on a scale of one to five.</h2>
+<input type="radio" id="religiousPassion" value="1">1
+<input type="radio" id="religiousPassion" value="2">2
+<input type="radio" id="religiousPassion" value="3">3
+<input type="radio" id="religiousPassion" value="4">4
+<input type="radio" id="religiousPassion" value="5">5
+</div>
+
+<div class = "intro" id="social">
+<h2>Alright, finally how social are you, on a scale of one to five.  One being borderline agoraphobic, and five being out on the town everynight of the week.</h2>
+<input type="radio" id="socialPassion" value="1">1
+<input type="radio" id="socialPassion" value="2">2
+<input type="radio" id="socialPassion" value="3">3
+<input type="radio" id="socialPassion" value="4">4
+<input type="radio" id="socialPassion" value="5">5
+
+<button id="factorButton">Save!</button>
+
+<div id="factors"></div>
+
+<div class = "intro" id="intro4">Alright, now for your interests.  Go ahead and enter something you like in the box and hit add.  We'll add a button to your interests and you can search for like minded bros. We recommend you be specific as possible. Example - if you like a specific band put that band! If you like a specific hobby put it.  
+<input type="text" id="interestBox">
+<button id="addButton">Add!</button>
+<div id="yourLikes">Your Likes: </div>
+</div>
+
+<div id="interestButtons"></div>
+
+<div class = "intro" id="intro5">
+Finally go ahead and tell us a little about yourself.
+<input type="text" id="aboutMeText">
+</div>
+
+<div id="aboutMe"></div>
+
+<div id="saveProfile">
+	<button id="saveButton">Save Your Profile!</button>
+</div>
+
+<div id="newProfile"></div>

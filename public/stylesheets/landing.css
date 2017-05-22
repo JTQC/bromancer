@@ -1,0 +1,187 @@
+		html, body {
+			margin: 0;
+			padding: 0;
+	/*		background-color: black;
+			opacity: 5.;*/
+		}
+
+  		h1 {
+  			font-family: 'Monoton', cursive;
+  			font-size: 50px;
+  			color: #fec311;
+  			padding-left: 15px;
+  			padding-bottom: 25px;
+  			/*width: 50%;*/
+  		}
+
+  		h2 {
+  			font-family: 'Raleway', sans-serif;
+  			font-size: 20px;
+  			color:  #fec311;
+  		}
+
+  		p {
+  			text-align: justify;
+  			text-justify: inter-word;
+  		}
+
+  		.header {
+  			display: flex;
+  			width: auto;
+  			background-color: #6c6352;
+  			opacity: 0.75;
+  			height: 125px;
+  		}
+
+  		.links {
+  			display: flex;
+  			height: 25px;
+  			position: relative;
+  			left: 50%;
+  			font-family: 'Raleway', sans-serif;
+  			border-style: solid;
+  			border-color: #3b342a;
+  			word-spacing: 2em;
+  			list-style: none;
+  			padding: 3px 5px 3px 5px;
+  			color:  #fec311;
+  		}
+
+
+  		body {
+  			background-image: url("../images/background.jpg");
+  			background-size: cover;
+  			background-position: center;
+  		}
+
+		input {
+
+			max-width: 500px;
+			padding: 15px 15px 8px 15px;
+			box-shadow: 1px 1px 4px #DADADA;
+			border: none;
+			border-radius: 3px;
+			margin-bottom: 5px;
+			background-color: rgba(255, 255, 255, .25)
+			left: 25%;
+			position: relative;
+  			margin: 80px 0 0 10px;
+		}
+
+
+		#dropDown { 
+			border: none;
+			padding: 15px 15px 8px 15px;
+			background: #fec311;
+			color: white;
+			font-family: 'Monoton', cursive;
+			font-size: 44px;
+		 	border-radius: 15px;
+		 	margin: -75px 0 0 10px;
+		 	width: 500px;
+		 }
+
+
+		.intro {
+			/*position: fixed;*/
+			/*z-index: 1;*/
+			height: auto;
+			overflow: auto;
+			background-color: #6c6352;
+			opacity: .75;
+			/*background-color: rgba(255, 165, 0, 75%);*/
+		/*	text-align: center;*/
+			padding: 40px 40px 40px 15px;
+			text-align: left;
+			font-family: Lato;
+			color: #f8f8f8;
+			width: 500px;
+			float: left;
+			position: relative;
+			margin: 80px 0 100px 10px;
+			/*display: block;*/
+			border-radius: 15px;
+					
+			/*left: 25%;*/
+		}
+
+		.dDown {
+			display: inline-block;	
+			/*background-color: #fec311;*/
+			position: relative;
+			left: 325px;
+			top: 150px;
+			/*border: solid;*/
+			/*border-color: rgba(1, 26, 39, .5);
+			border-radius: 25px;*/
+			/*padding: auto;*/
+		}
+
+		p {
+			margin-bottom: 15px;
+			line-height: 20px;
+		}
+
+		#email {
+			border: none;
+			color:  #3b342a;
+			border-radius: 5px;
+			background-color: white;
+			font-family: 'Monoton', cursive;
+			font-size: 25px;
+			text-align: center;
+		
+		}
+		
+
+		.textEdit {
+			width: 500px;
+			height: 300px;
+			resize: none;
+		}
+
+		#viewMessage {
+			width: 500px;
+		}
+
+		#signUp {
+			display: none;
+			height: auto;
+			overflow: auto;
+			background-color: #6c6352;
+			opacity: .75;
+			padding: 40px 40px 40px 15px;
+			text-align: left;
+			font-family: Lato;
+			color: #f8f8f8;
+			width: 500px;
+			float: left;
+			position: absolute;
+			margin: 0px 0 100px 10px;
+			
+			border-radius: 15px;
+		}
+
+		.signUpForm {
+			font-family: 'Raleway', sans-serif;
+  			font-size: 15px;
+  			color:  #fec311;
+  			margin: 0;
+  			padding: 0 5px 0 0;
+  		/*	float: left;*/
+  			display: inline-block;
+  		}
+		
+		.hiddenForm {
+			/*float: left;*/
+			display: inline-block;
+		}
+
+		.loginDD{
+			margin: auto;
+			position: relative;
+			left: -200;
+			display: none;
+		}
+
+		

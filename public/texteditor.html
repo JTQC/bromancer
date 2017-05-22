@@ -1,0 +1,46 @@
+<!doctype html>
+<!--CDN's & Stylesheets-->
+<script src="https://use.fontawesome.com/50667eb8f8.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="./stylesheets/textEdit.css">
+  <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+    <script src="./javascripts/textEdit.js"></script>
+
+
+<div class="toolbar">
+	<div class="fontChoices">
+	<a href="#" data-command="bold" class="style"><i class="fa fa-bold"></i></a>
+	<a href="#" data-command="italic" class="style"><i class="fa fa-italic"></i></a>
+	<a href="#" data-command="underline" class="style"><i class="fa fa-underline"></i></a>
+	</div>
+	<div class="lists">
+	<!-- <a href="#" data-command="insertOrderedlist" class="style"><i class="fa fa-list-ol"></i></a>
+	<a href="#" data-command="insertUnorderedlist" class="style"><i class="fa fa-list-ul"></i></a> -->
+	</div>
+	<div class="addStuff">
+	<a href="#" data-command="insertImage" class="style"><i class="fa fa-image"></i></a>
+	<a href="#" data-command="createLink" class="style"><i class="fa fa-link"></i></a>
+	</div>
+	<div class="doUndo">
+	<a href="#" data-command="undo" class="style"><i class="fa fa-undo"></i></a>
+	<a href="#" data-command="redo" class="style"><i class="fa fa-repeat"></i></a>
+	</div>
+</div>
+
+<div id="clearFix"></div>
+
+<div id="textEdit" contenteditable>
+Send Your Message Here!
+</div>
+
+<div id="clearFix"></div>
+
+<input type="submit" id="submit"></input>
+
+<div id="clearFix"></div>
+
+<div id="profile"></div>

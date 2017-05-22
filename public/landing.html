@@ -1,0 +1,99 @@
+<!DOCTYPE = html>
+<html>
+  
+  <head>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+   <head>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  	<link rel="stylesheet" href="./stylesheets/landing.css">
+    <script src="./javascripts/landing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.amd.js"></script>
+
+	</head>
+
+   <title>Bromancer</title>
+  	
+  
+  
+  </head>
+  
+  <body>
+    
+    <div class="header">
+    <h1><!-- <div class="firstThree"> -->BRO<!-- </div> -->mancer</h1>
+
+    <div class="overAll">
+      <button id="lModal">Login</button>
+      <div class="loginDD">
+      <form action="/login" method="post">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" class="form-control" name="password">
+        </div>
+          <input type="submit" class="btn btn-warning btn-lg">Login</button>
+        </form>      
+      </div>
+      </div>
+    </div>   
+
+
+  	<div class="intro">
+	
+	<h2>You're an adult now,</h2>
+	<p>You might be married, might have children - you probably have a job.  
+	<br>You've got your head on straight and your life sorted out.
+	<h2>Except one thing</h2>
+	<p>Maybe you've moved recently, or all your old friends moved away.  You don't have any male friends.
+	<h2>So what to do?</h2> 
+	<p>You can go to a bar, but alone?  It's awkward, and the people there are either looking to hook up or already have their friends. 
+	<p>You can hang out with people you meet at work, but maybe they have nothing in common with you - settling for friends is no better than settling in love.
+	<h2>We're here</h2>  <p>So let's go ahead and help you develop, create and grow a bromance.
+	<hr>
+	</div>
+
+	<div class="dDown">
+		
+	  <button id="dropDown">Sign Up, Bro!</button>
+      
+      <div id='signUp'>
+      
+      <form action="/signup" method="post">
+      <div class="form-group">
+        <label>User Name</label>
+        <input type="text" class="form-control" name="username">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" name="password">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="password" class="form-control" name="email">
+      </div>
+
+      <button type="submit" class="btn btn-warning btn-lg">Login</button>
+      </form>     
+<!-- 
+      <h2 class="signUpForm">User Name:</h2><input type="text" class="hiddenForm" id="userName"><br>
+      <h2 class="signUpForm">Password</h2><input type="text" class="hiddenForm" id="userPass"><br>
+      <h2 class="signUpForm">Email Address:</h2><input type="email" class="hiddenForm" id="userEmail"><br>
+      <input type="submit" id="register">
+      </div> -->
+  	 
+
+  	  
+  
+  </body>
+
+</html>
